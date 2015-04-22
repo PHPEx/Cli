@@ -1,0 +1,17 @@
+{
+    "name": "phpex/cli",
+    "description": "Command Line Interface for PHPEx",
+    "authors": [
+        {
+            "name": "IgorDePaula",
+            "email": "igordepaula@adminweb.com.br"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "Cli\\":"src/Cli",
+            "Command\\":"src/Command"
+        }
+    },
+    "require": {}
+}
